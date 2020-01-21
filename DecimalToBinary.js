@@ -1,7 +1,5 @@
 //Convert decimal numbers into binary. The input is in 'string' format.
 
-let arrOfBin = [];
-
 function divideby2(num, array){
   let whole=Math.floor(num/2);
   let remainder=num%2;

@@ -3,3 +3,4 @@
 My solutions:
 
 * Binary To Decimal
+* Decimal To Binary
