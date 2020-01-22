@@ -7,8 +7,9 @@ function DecToHex(num){
     let arrRes = []
   
     let inputAsNum = Number(num);
-    if (!inputAsNum == true){  
-      console.log('This is not a decimal number: ' + num)
+    if (!inputAsNum == true){ //OR (isNaN(inputAsNum))
+      console.log('This is not a decimal number: ' + num);
+      return 'This is not a decimal number: ' + num 
     } else {
       getRem(inputAsNum, arrRemTimes16)
     }
