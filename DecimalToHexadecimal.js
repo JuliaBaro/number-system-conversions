@@ -21,7 +21,8 @@ function DecToHex(num){
         }
       }
     }
-    let res = arrRes.join('');
+    let mergedRes = [].concat.apply([], arrRes);
+    let res = mergedRes.join('');
     console.log(res);
   
     function getRem(num, arrRemTimes16){ 
