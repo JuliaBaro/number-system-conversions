@@ -3,7 +3,7 @@
 My solutions:
 
 * Binary To Decimal
-* BinaryToHexadecimal
+* Binary To Hexadecimal
 * Decimal To Binary
 * Decimal To Hexadecimal
 * Hexadecimal To Binary
